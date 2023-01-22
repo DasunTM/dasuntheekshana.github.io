@@ -104,3 +104,10 @@
     font-style: normal;
 }
 
+
+@font-face {
+    font-family: 'Inconsolata';
+    src: url('../fonts/Inconsolata/Inconsolata-Bold.woff') format(woff);
+    font-weight: normal;
+    font-style: normal;
+}

@@ -4,7 +4,7 @@
 <!--[if (gte IE 9)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
 <head>
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
+	<link rel="stylesheet" href="flickity.css" media="screen">
 
    <!--- basic page needs
    ================================================== -->
@@ -35,6 +35,7 @@
 </head>
 
 <body id="top">
+	<script src="flickity.pkgd.min.js"></script>
 
 	<!-- header 
    ================================================== -->
@@ -68,14 +69,14 @@
    ================================================== -->
    <section id="intro">   
 
-   	<div class="intro-overlay"></div>	
+   	<!-- <div class="intro-overlay"></div>	 -->
 
    	<div class="intro-content">
    		<div class="row">
 
    			<div class="col-twelve">
 
-	   			<h5>print("Hello, World.")</h5>
+	   			<h5 class="code-style">print("Hello, World.")</h5>
 				<br>
 	   			<h1>I'm Dasun Theekshana.</h1>
 
@@ -494,7 +495,7 @@
 											</div>
 											
 											<div class="blog-desc">
-												<p>Collaborated in building an app which predicting Startup success, built using data mining methodologies. The app uses Python, NumPy, Scikit Learn and Streamlit cloud</p>
+												<p class="portfolio-desc-text">Collaborated in building an app which predicting Startup success, built using data mining methodologies. The app uses Python, NumPy, Scikit Learn and Streamlit cloud</p>
 											</div>
 											
 											
@@ -518,7 +519,7 @@
 											</div>
 											
 											<div class="blog-desc">
-												<p>Lorem ipsum dolor sit amet con sectetur adipiscing elit sed do eiu smod tempor incididunt ut labore et dolore magna aliqua.</p>
+												<p class="portfolio-desc-text">A data warehouse with data visualizations developed using Microsoft Visual Studio,SSAS,SSIS. Visualization was done using SSRS and PowerBI</p>
 											</div>
 											
 											
@@ -530,18 +531,18 @@
 								 <div class="col-md-4 blog-item-wrapper">
 									<div class="blog-item">
 										<div class="blog-img">
-											<a href="https://github.com/DasunTM/ElectroGridFrontend"><img src="images/thumbnails/electrogrid.png" alt=""></a>
+											<a href="https://github.com/ITP-Project-WE-G3"><img src="images/projects/Grocery 24x7.jpg" alt=""></a>
 										</div>
 										<div class="blog-text">
 											<div class="blog-tag">
 												<a href="#"><h6><small>Software Engineering</small></h6></a>
 											</div>
 											<div class="blog-title">
-												<a href="https://github.com/DasunTM/ElectroGridFrontend"><h4>ElectroGrid Automation System</h4></a>
+												<a href="https://github.com/ITP-Project-WE-G3"><h4> Grocery24/7 - Online grocery shopping web application</h4></a>
 											</div>
 											
 											<div class="blog-desc">
-												<p>A system built using Java, JSP, Servlet, JQuery, MySQL and Ajax to automate the functioning of electrical grid system</p>
+												<p class="portfolio-desc-text"> The web application was developed using ReactJS, ExpressJS, NodeJS and MongoDB </p>
 											</div>
 											
 											
@@ -549,6 +550,81 @@
 									</div>
 								 </div>
 								<!-- End of Blog Item -->
+							</div>
+							<div class="row">
+	<!-- Blog Item -->
+	<div class="col-md-4 blog-item-wrapper">
+		<div class="blog-item">
+			<div class="blog-img">
+				<a href="https://github.com/DasunTM/ElectroGridFrontend"><img src="images/thumbnails/electrogrid.png" alt=""></a>
+			</div>
+			<div class="blog-text">
+				<div class="blog-tag">
+					<a href="#"><h6><small>Software Engineering</small></h6></a>
+				</div>
+				<div class="blog-title">
+					<a href="https://github.com/DasunTM/ElectroGridFrontend"><h4>ElectroGrid Automation System</h4></a>
+				</div>
+				
+				<div class="blog-desc">
+					<p class="portfolio-desc-text">A system built using Java, JSP, Servlet, JQuery, MySQL and Ajax to automate the functioning of electrical grid system </p>
+				</div>
+				
+				
+			</div>
+		</div>
+	 </div>
+
+	<!-- End of Blog Item -->
+	<!-- Blog Item -->
+	 <div class="col-md-4 blog-item-wrapper">
+		<div class="blog-item">
+			<div class="blog-img">
+				<a href="https://github.com/DasunTM/housing-loans-datawarehouse"><img src="images/projects/BidEasy 2.PNG" alt=""></a>
+			</div>
+			<div class="blog-text">
+				<div class="blog-tag">
+					<a href="#"><h6><small>Software Engineering</small></h6></a>
+				</div>
+				<div class="blog-title">
+					<a href="https://github.com/DasunTM/housing-loans-datawarehouse"><h4>BidEasy - Online bidding and Auction site</h4></a>
+				</div>
+				
+				<div class="blog-desc">
+					<p class="portfolio-desc-text">Lorem ipsum dolor sit amet con sectetur adipiscing elit sed do eiu smod tempor incididunt ut labore et dolore magna aliqua.</p>
+				</div>
+				
+				
+			</div>
+		</div>
+	 </div>
+	<!-- End of Blog Item -->
+	<!-- Blog Item -->
+	 <div class="col-md-4 blog-item-wrapper">
+		<div class="blog-item">
+			<div class="blog-img">
+				<a href="https://github.com/DasunTM/MAD-Final"><img src="images/projects/Love Guru.png" alt=""></a>
+			</div>
+			<div class="blog-text">
+				<div class="blog-tag">
+					<a href="#"><h6><small>Mobile App Development</small></h6></a>
+				</div>
+				<div class="blog-title">
+					<a href="https://github.com/DasunTM/MAD-Final"><h4>Love Guru - A dating app for Sri Lankans</h4></a>
+				</div>
+				
+				<div class="blog-desc">
+					<p class="portfolio-desc-text">A system built using Java, JSP, Servlet, JQuery, MySQL and Ajax to automate the functioning of electrical grid system</p>
+				</div>
+				
+				
+			</div>
+		</div>
+	 </div>
+	<!-- End of Blog Item -->
+</div>
+
+
 							</div>
 						</div>
 						<!-- End of Blog -->
@@ -1270,11 +1346,11 @@
 	      </div>
 
       	<div class="col-eight tab-full">
-	      	<div class="copyright">
+	      	<!-- <div class="copyright">
 		        	<span>© Copyright 2018 </span> 
 		        	<span>Design by <a href="http://www.styleshout.com/">styleshout</a></span> 
 		        	<span>Distributed by <a href="https://themewagon.com/">themewagon</a></span>	         	
-		         </div>		                  
+		         </div>		                   -->
 	      	</div>
 
 	      	<div id="go-top">

@@ -875,8 +875,8 @@ textarea {
 .blog-item {
 	transition: all 0.3s ease-in-out;
 	background-color: #f7f8f9;
-	max-height: 550px;
-	min-height: 550px;
+	max-height: 450px;
+	min-height: 450px;
 	border-radius: 6px;
 	overflow: hidden; }
 	.blog-item:hover {
